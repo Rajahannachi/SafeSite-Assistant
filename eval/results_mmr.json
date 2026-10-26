@@ -1,0 +1,233 @@
+{
+  "summary": {
+    "config": {
+      "llm_model": "nvidia/nemotron-3.5-lightning:free",
+      "fallbacks": [
+        "google/gemma-4-31b-it:free",
+        "poolside/laguna-s-2.1:free"
+      ],
+      "search_type": "mmr",
+      "rerank": false,
+      "top_k": 4,
+      "chunk_size": 800,
+      "chunk_overlap": 120
+    },
+    "overall_accuracy": 1.0,
+    "answerable_accuracy": "8/8",
+    "correct_refusals": "2/2",
+    "false_refusals": 0,
+    "citation_accuracy": "8/8",
+    "retrieval_hit_at_k": "8/8",
+    "avg_latency_ms": 17093,
+    "max_latency_ms": 62142,
+    "errors": 0
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "question": "What is the maximum height before a guardrail is mandatory on a scaffold?",
+      "answerable": true,
+      "answer": "Guardrails are mandatory on scaffold platforms that are **2 metres or more** above the lower level. Below 2 metres, guardrails are recommended but not mandatory (unless the scaffold is placed next to an excavation, a road, or any other specific hazard identified in the risk assessment).\n\n[scaffolding_work_at_height.pdf, p.2]",
+      "retrieved": [
+        "scaffolding_work_at_height.pdf p.2",
+        "scaffolding_work_at_height.pdf p.2",
+        "scaffolding_work_at_height.pdf p.1",
+        "scaffolding_work_at_height.pdf p.1"
+      ],
+      "latency_ms": 13694,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "scaffolding_work_at_height.pdf"
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "What must a worker do in the first 24 hours after an incident?",
+      "answerable": true,
+      "answer": "Within the first 24 hours after an incident, a worker must complete the reporting and immediate safety actions outlined in the procedure. \n\n- Report the incident verbally to the supervisor straight away and fill in the Incident Report Form IR-F1 (paper form in the site office or the mobile app \"SafeSite Report\") within 24 hours. [incident_reporting_procedure.md, p.1]  \n- The injured worker must see a doctor or occupational health service within 24 hours, even if the injury seems minor, and give the medical certificate to the site office. [incident_reporting_procedure.md, p.1]  \n- Witnesses must write a short statement on the witness form IR-F2 on the same day, while their memory is fresh. [incident_reporting_procedure.md, p.1]  \n- Complete the immediate first-minute actions: make the area safe, give first aid and call for help (call 112 for serious injuries, then inform the site office), inform the supervisor immediately by radio or phone, and preserve the scene (do not move equipment/debris unless needed; take photos if safe). [incident_reporting_procedure.md, p.1]",
+      "retrieved": [
+        "incident_reporting_procedure.md p.1",
+        "incident_reporting_procedure.md p.1",
+        "incident_reporting_procedure.md p.1",
+        "site_safety_regulations.pdf p.2"
+      ],
+      "latency_ms": 62142,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "incident_reporting_procedure.md"
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "Which PPE is required for concrete cutting?",
+      "answerable": true,
+      "answer": "Based on [ppe_rules.pdf, p.3], the PPE required for concrete cutting (in addition to the minimum helmet, high-visibility vest, and S3 safety footwear) is:\n\n- Safety glasses plus full face shield  \n- FFP3 mask (for silica dust)  \n- Hearing protection  \n- Cut-resistant gloves  \n- Anti-vibration gloves (for prolonged use)  \n\nAdditional requirements:  \n- Wet cutting or on-tool extraction is mandatory.  \n- If wet cutting is used, waterproof clothing and boots are recommended.",
+      "retrieved": [
+        "ppe_rules.pdf p.3",
+        "ppe_rules.pdf p.1",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "equipment_manual_cutoff_saw.txt p.1"
+      ],
+      "latency_ms": 8799,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "ppe_rules.pdf"
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "Above which noise level is hearing protection mandatory?",
+      "answerable": true,
+      "answer": "Hearing protection is mandatory when the noise level exceeds 85 dB(A). [ppe_rules.pdf, p.2]",
+      "retrieved": [
+        "ppe_rules.pdf p.2",
+        "scaffolding_work_at_height.pdf p.1",
+        "site_safety_regulations.pdf p.2",
+        "incident_reporting_procedure.md p.1"
+      ],
+      "latency_ms": 9076,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "ppe_rules.pdf"
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "How often must a scaffold be inspected while it is in use?",
+      "answerable": true,
+      "answer": "According to the scaffold inspection requirements, a scaffold must be inspected at least every 7 days while in use. [scaffolding_work_at_height.pdf, p.2]\n\n- Inspected before first use and after erection  \n- Inspected at least every 7 days while in use  \n- Inspected after any event likely to affect stability (strong wind above 50 km/h, vehicle impact, modification, heavy rain, or frost)  \n- Results recorded in the scaffold register and shown by a tag at each access point (GREEN/YELLOW/RED)",
+      "retrieved": [
+        "scaffolding_work_at_height.pdf p.2",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "site_safety_regulations.pdf p.3",
+        "incident_reporting_procedure.md p.1"
+      ],
+      "latency_ms": 6663,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "scaffolding_work_at_height.pdf"
+      ]
+    },
+    {
+      "id": "q06",
+      "question": "How quickly must a worker suspended in a harness after a fall be rescued?",
+      "answerable": true,
+      "answer": "A worker suspended in a harness after a fall must be rescued within **15 minutes** because of the risk of suspension trauma. [scaffolding_work_at_height.pdf, p.3]",
+      "retrieved": [
+        "scaffolding_work_at_height.pdf p.3",
+        "scaffolding_work_at_height.pdf p.3",
+        "ppe_rules.pdf p.2",
+        "incident_reporting_procedure.md p.1"
+      ],
+      "latency_ms": 8481,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "scaffolding_work_at_height.pdf"
+      ]
+    },
+    {
+      "id": "q07",
+      "question": "From what depth must an excavation be shored, sloped or protected by a trench box?",
+      "answerable": true,
+      "answer": "Excavations deeper than 1.2 metres must be shored, sloped or protected by a trench box. [site_safety_regulations.pdf, p.3]",
+      "retrieved": [
+        "site_safety_regulations.pdf p.3",
+        "scaffolding_work_at_height.pdf p.2",
+        "scaffolding_work_at_height.pdf p.1",
+        "equipment_manual_cutoff_saw.txt p.1"
+      ],
+      "latency_ms": 36536,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "site_safety_regulations.pdf"
+      ]
+    },
+    {
+      "id": "q08",
+      "question": "What is the minimum water flow needed for wet cutting with the CS-350 cut-off saw?",
+      "answerable": true,
+      "answer": "The minimum water flow needed for wet cutting with the CS-350 cut-off saw is **0.6 litres per minute**.  \n[equipment_manual_cutoff_saw.txt, p.1]",
+      "retrieved": [
+        "equipment_manual_cutoff_saw.txt p.1",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "scaffolding_work_at_height.pdf p.1"
+      ],
+      "latency_ms": 5343,
+      "error": null,
+      "refused": false,
+      "correct": true,
+      "citation_ok": true,
+      "retrieval_hit": true,
+      "cited_files": [
+        "equipment_manual_cutoff_saw.txt"
+      ]
+    },
+    {
+      "id": "q09",
+      "question": "What is the CEO's salary?",
+      "answerable": false,
+      "answer": "I could not find this in the safety documents.",
+      "retrieved": [
+        "site_safety_regulations.pdf p.2",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "scaffolding_work_at_height.pdf p.1",
+        "ppe_rules.pdf p.3"
+      ],
+      "latency_ms": 13787,
+      "error": null,
+      "refused": true,
+      "correct": true,
+      "citation_ok": null,
+      "retrieval_hit": null,
+      "cited_files": []
+    },
+    {
+      "id": "q10",
+      "question": "How much does a CS-350 cut-off saw cost to buy?",
+      "answerable": false,
+      "answer": "I could not find this in the safety documents.",
+      "retrieved": [
+        "equipment_manual_cutoff_saw.txt p.1",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "equipment_manual_cutoff_saw.txt p.1",
+        "ppe_rules.pdf p.2"
+      ],
+      "latency_ms": 6416,
+      "error": null,
+      "refused": true,
+      "correct": true,
+      "citation_ok": null,
+      "retrieval_hit": null,
+      "cited_files": []
+    }
+  ]
+}

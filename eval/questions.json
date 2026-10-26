@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the maximum height before a guardrail is mandatory on a scaffold?",
+    "expected_answer": "Guardrails (top rail, mid-rail, toe board) are mandatory on all open sides of a scaffold platform 2 metres or more above the lower level.",
+    "answerable": true,
+    "expected_source": "scaffolding_work_at_height.pdf",
+    "must_match": ["(?<![\\d.])2\\s?(m|metres|meters)\\b"]
+  },
+  {
+    "id": "q02",
+    "question": "What must a worker do in the first 24 hours after an incident?",
+    "expected_answer": "Report it to the supervisor straight away, fill in the Incident Report Form IR-F1 within 24 hours, and see a doctor or occupational health service within 24 hours if injured.",
+    "answerable": true,
+    "expected_source": "incident_reporting_procedure.md",
+    "must_match": ["IR-F1|incident report form", "doctor|occupational health"]
+  },
+  {
+    "id": "q03",
+    "question": "Which PPE is required for concrete cutting?",
+    "expected_answer": "In addition to helmet, hi-vis and S3 boots: safety glasses plus full face shield, FFP3 mask, hearing protection, cut-resistant gloves (anti-vibration gloves for prolonged use); wet cutting or extraction mandatory.",
+    "answerable": true,
+    "expected_source": "ppe_rules.pdf",
+    "must_match": ["FFP3", "hearing", "face shield"]
+  },
+  {
+    "id": "q04",
+    "question": "Above which noise level is hearing protection mandatory?",
+    "expected_answer": "85 dB(A).",
+    "answerable": true,
+    "expected_source": "ppe_rules.pdf",
+    "must_match": ["85\\s?dB"]
+  },
+  {
+    "id": "q05",
+    "question": "How often must a scaffold be inspected while it is in use?",
+    "expected_answer": "At least every 7 days, plus before first use and after any event affecting stability.",
+    "answerable": true,
+    "expected_source": "scaffolding_work_at_height.pdf",
+    "must_match": ["\\b7 days|seven days|every week|weekly"]
+  },
+  {
+    "id": "q06",
+    "question": "How quickly must a worker suspended in a harness after a fall be rescued?",
+    "expected_answer": "Within 15 minutes, because of the risk of suspension trauma.",
+    "answerable": true,
+    "expected_source": "scaffolding_work_at_height.pdf",
+    "must_match": ["15\\s?min"]
+  },
+  {
+    "id": "q07",
+    "question": "From what depth must an excavation be shored, sloped or protected by a trench box?",
+    "expected_answer": "Excavations deeper than 1.2 metres.",
+    "answerable": true,
+    "expected_source": "site_safety_regulations.pdf",
+    "must_match": ["1[.,]2\\s?(m|metres|meters)\\b"]
+  },
+  {
+    "id": "q08",
+    "question": "What is the minimum water flow needed for wet cutting with the CS-350 cut-off saw?",
+    "expected_answer": "0.6 litres per minute.",
+    "answerable": true,
+    "expected_source": "equipment_manual_cutoff_saw.txt",
+    "must_match": ["0[.,]6\\s?(l|litre|liter)"]
+  },
+  {
+    "id": "q09",
+    "question": "What is the CEO's salary?",
+    "expected_answer": "I could not find this in the safety documents.",
+    "answerable": false,
+    "expected_source": null,
+    "must_match": []
+  },
+  {
+    "id": "q10",
+    "question": "How much does a CS-350 cut-off saw cost to buy?",
+    "expected_answer": "I could not find this in the safety documents.",
+    "answerable": false,
+    "expected_source": null,
+    "must_match": []
+  }
+]

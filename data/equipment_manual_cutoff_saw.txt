@@ -1,0 +1,55 @@
+BuildRight Equipment Manual - Petrol Cut-off Saw (Disc Cutter) CS-350
+Site equipment sheet EQ-07
+
+1. Intended use
+
+The CS-350 is a hand-held petrol cut-off saw with a 350 mm diameter disc. It is used to cut concrete, reinforced concrete, brick, stone, asphalt and metal (with the appropriate disc). It must not be used to cut wood or plastics, and must never be used with a circular-saw blade or a toothed blade.
+
+Only workers who have received the "Cut-off saw" training and are authorised by their supervisor may use this machine.
+
+2. Main technical data
+
+- Disc diameter: 350 mm; maximum cutting depth: 125 mm.
+- Maximum disc speed: 4,700 rpm. Always check that the speed marked on the disc is at least equal to the machine speed.
+- Weight without disc and fuel: 10 kg.
+- Sound power level: 115 dB(A). Hearing protection is mandatory.
+- Vibration level: 3.5 m/s2 at the handles. Limit continuous use and take regular breaks.
+- Water connection for wet cutting: standard hose coupling, minimum flow 0.6 litres per minute.
+
+3. Personal protective equipment
+
+In addition to the site minimum PPE (helmet, high-visibility vest, S3 safety footwear), the operator must wear: safety glasses and a face shield, hearing protection, an FFP3 respirator when cutting concrete, stone or brick, cut-resistant gloves, and close-fitting clothing (no loose clothes, scarves or jewellery). See PPE rules PPE-02.
+
+4. Before starting
+
+- Check the disc: no cracks, missing segments or deformation. Replace a damaged disc immediately.
+- Check that the disc guard is in place and correctly adjusted: it must cover at least the upper half of the disc, with the rear edge positioned to deflect sparks and debris away from the operator.
+- Connect the water supply and check the flow for wet cutting. Dry cutting of concrete, stone or brick is forbidden on BuildRight sites because of silica dust.
+- Mark the cutting line and make sure there are no hidden cables, pipes or rebar under tension.
+- Set up a 5-metre exclusion zone around the cutting area with barriers or tape.
+- Refuel only when the engine is cold, at least 3 metres from the cutting location, and never smoke.
+
+5. Starting the machine
+
+Place the saw on firm, level ground with the disc free. Hold the front handle firmly with the left hand and put the right foot in the rear handle. Never "drop start" the saw. Let the engine run at idle for a few seconds before starting the cut; the disc must not rotate at idle.
+
+6. Cutting
+
+- Hold the saw with both hands at all times, thumbs wrapped around the handles.
+- Stand to the side of the cutting plane, never in line with the disc.
+- Never cut with the upper quarter of the disc (kickback zone). Kickback can throw the saw violently towards the operator.
+- Do not twist or force the disc in the cut. Let the machine work at full speed.
+- Support the workpiece so that the cut does not close and pinch the disc.
+- Never cut above shoulder height, and never cut from a ladder.
+- Stop and let the disc stop completely before putting the saw down.
+
+7. Maintenance
+
+- Clean the air filter every day of use; replace it every 50 hours or sooner in very dusty conditions.
+- Check the drive belt tension every week.
+- The machine is serviced by the equipment workshop every 100 hours of operation or every 6 months, whichever comes first.
+- A machine that is damaged, makes abnormal noise or vibrates abnormally must be stopped, tagged "OUT OF SERVICE" and returned to the workshop.
+
+8. Storage and transport
+
+Remove the disc for transport. Store the saw in a dry, ventilated place, away from sources of ignition. Store discs flat, in a dry place, protected from impact and humidity.
