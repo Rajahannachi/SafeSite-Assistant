@@ -86,7 +86,7 @@ Optional: `streamlit run streamlit_app.py` (chat UI, needs the API running) · `
 
 `eval/questions.json`: 10 questions (8 answerable, 2 not: the CEO's salary and the price of the CS-350 saw, a trap because the saw *is* in the documents). `eval/run_eval.py` grades automatically: an answer is correct when it is not a refusal and every key-fact regex matches (e.g. `2 m` but not `1.2 m`); a refusal is correct when it is the exact refusal sentence.
 
-**Runs of 25/10/2026**: k=4, `nvidia/nemotron-3.5-lightning:free`, chunks 800/120; only the retriever changes.
+**Runs**: k=4, `nvidia/nemotron-3.5-lightning:free`, chunks 800/120; only the retriever changes.
 
 | Retriever | Accuracy | Answerable | Refusals | Expected file cited | Hit@4 | Median latency | Mean | Max |
 |---|---|---|---|---|---|---|---|---|
@@ -95,7 +95,6 @@ Optional: `streamlit run streamlit_app.py` (chat UI, needs the API running) · `
 | Hybrid | 10/10 | 8/8 | 2/2 | 8/8 | 8/8 | 12.1 s | 13.4 s | 31.5 s |
 | BM25 only (first run, before embeddings were installed) | 10/10 | 8/8 | 2/2 | 8/8 | 8/8 | 6.3 s | 9.3 s | 19.3 s |
 
-Full answers: `eval/results_<retriever>.json` / `.md`. Live API answers to the 3 example questions + the refused one, and UI screenshots: [docs/SafeSite_Assistant_Technical_Dossier.pdf](docs/SafeSite_Assistant_Technical_Dossier.pdf) (section 2).
 
 **Honest analysis.**
 - Grounding and refusals are solid: 8/8 exact refusals across runs, including the q10 trap; every number is copied exactly.
